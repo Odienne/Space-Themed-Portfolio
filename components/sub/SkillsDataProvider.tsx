@@ -12,7 +12,7 @@ interface Props {
     index: number;
 }
 
-export default function SkillsDataProvider({src, width, height, index}) {
+export default function SkillsDataProvider({src, width, height, index}: Props) {
     const {ref, inView} = useInView({
         triggerOnce: true
     })
